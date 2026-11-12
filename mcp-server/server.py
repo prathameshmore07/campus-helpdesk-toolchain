@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
-mcp = FastMCP("campus-helpdesk-server")
+mcp = MCPServer("campus-helpdesk-server")
 
 TIMETABLE_DATA = {
     ("CSE-A", "Monday"): [
