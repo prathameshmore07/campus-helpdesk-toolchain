@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "BeforeTool": [
+      {
+        "matcher": "write_file|replace",
+        "hooks": [
+          {
+            "name": "guard-protected-folder",
+            "type": "command",
+            "command": "python3 \"${extensionPath}/hooks/guard_protected.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+description = "Look up the verified university timetable for a given batch and weekday."
+prompt = """
+Check the university timetable using the timetable-helper skill or the get_timetable MCP tool for the user's request: {{args}}
+Do not invent any classes or rooms not present in the official data.
+"""

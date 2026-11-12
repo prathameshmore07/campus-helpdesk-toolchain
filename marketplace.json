@@ -1,0 +1,14 @@
+{
+  "name": "campus-helpdesk-marketplace",
+  "owner": {
+    "name": "Nimbus Labs"
+  },
+  "plugins": [
+    {
+      "name": "campus-helpdesk",
+      "source": "./",
+      "description": "University helpdesk bundle with timetable-helper skill, /check-timetable command, protected-folder hook, and stdio MCP server.",
+      "version": "1.0.0"
+    }
+  ]
+}

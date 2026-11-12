@@ -1,0 +1,14 @@
+{
+  "name": "campus-helpdesk",
+  "version": "1.0.0",
+  "description": "Campus Helpdesk extension bundling timetable-helper skill, slash commands, write-guard hooks, and the campus MCP server.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "campus-helpdesk-mcp": {
+      "command": "${extensionPath}/.venv/bin/python",
+      "args": [
+        "${extensionPath}/mcp-server/server.py"
+      ]
+    }
+  }
+}
