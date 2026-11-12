@@ -1,4 +1,4 @@
-# Campus Helpdesk AI-Agent Toolchain
+# Campus Helpdesk AI-Agent Toolchain (MCP Server Edition)
 
 ## Components
 - **Skill**: `skills/timetable-helper/` (`SKILL.md`, `references/timetable.csv`, `references/column_dictionary.md`, `references/edge_cases.md`, `scripts/lookup_timetable.py`)
