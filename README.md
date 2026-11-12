@@ -10,3 +10,4 @@
 2. Test helper script: `python3 skills/timetable-helper/scripts/lookup_timetable.py CSE-A Monday`
 3. Run MCP server over stdio: `python3 mcp-server/server.py`
 4. Link extension in Gemini CLI: `gemini extensions link .`
+- **Protocol**: JSON-RPC 2.0 over stdio transport.
